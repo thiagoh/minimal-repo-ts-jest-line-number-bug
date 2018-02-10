@@ -1,6 +1,6 @@
 module.exports = {
   transform: {
-    "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
+    // "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
     "^.+\\.tsx?$": "ts-jest"
   },
   testMatch: ["**/*.spec.ts"],
