@@ -1,0 +1,40 @@
+{
+    "name": "minimal-repo-ts-jest-line-number-bug",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --config=config.js --debug --verbose",
+        "build": "tsc -p ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thiagoh/minimal-repo-ts-jest-line-number-bug.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thiagoh/minimal-repo-ts-jest-line-number-bug/issues"
+    },
+    "homepage": "https://github.com/thiagoh/minimal-repo-ts-jest-line-number-bug#readme",
+    "devDependencies": {
+        "@types/jest": "^22.0.0",
+        "@types/mock-fs": "^3.6.30",
+        "babel": "^6.23.0",
+        "babel-env": "^2.4.1",
+        "babel-jest": "^22.2.2",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-15": "^1.0.5",
+        "expect": "^22.2.2",
+        "jasmine": "^3.0.0",
+        "jest": "^22.0.0",
+        "mock-fs": "^4.4.2",
+        "react-test-renderer": "^15.6.2",
+        "ts-jest": "^22.0.0",
+        "typescript": "^2.6.2"
+    },
+    "dependencies": {
+        "react": "^15.6.2",
+        "react-dom": "^15.6.2"
+    }
+}
