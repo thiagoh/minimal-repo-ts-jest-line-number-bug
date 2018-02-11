@@ -1,5 +1,4 @@
-// const mock = require("mock-fs");
-import mock from "mock-fs";
+import * as mock from "mock-fs";
 import Dog from "./Dog";
 
 describe("Dog", () => {
